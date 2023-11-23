@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9AD1EAB2B0F308F00247897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AD1EAA2B0F308F00247897 /* AppDelegate.m */; };
+		C9AD1EB12B0F308F00247897 /* RCDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AD1EB02B0F308F00247897 /* RCDLoginViewController.m */; };
+		C9AD1EB42B0F308F00247897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AD1EB22B0F308F00247897 /* Main.storyboard */; };
+		C9AD1EB62B0F309000247897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD1EB52B0F309000247897 /* Assets.xcassets */; };
+		C9AD1EB92B0F309000247897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AD1EB72B0F309000247897 /* LaunchScreen.storyboard */; };
+		C9AD1EBC2B0F309000247897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AD1EBB2B0F309000247897 /* main.m */; };
+		C9AD1EC72B0F35C600247897 /* GlobalIMUIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1EC32B0F32A200247897 /* GlobalIMUIKit.xcframework */; };
+		C9AD1EC82B0F35C600247897 /* GlobalIMUIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1EC32B0F32A200247897 /* GlobalIMUIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9AD1ECA2B0F35C700247897 /* RongIMLibCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1EC42B0F32A200247897 /* RongIMLibCore.xcframework */; };
+		C9AD1ECB2B0F35C700247897 /* RongIMLibCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD1EC42B0F32A200247897 /* RongIMLibCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9AD1ED12B0F368400247897 /* RCDChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AD1ED02B0F368400247897 /* RCDChatListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9AD1EC92B0F35C600247897 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9AD1ECB2B0F35C700247897 /* RongIMLibCore.xcframework in Embed Frameworks */,
+				C9AD1EC82B0F35C600247897 /* GlobalIMUIKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9AD1EA62B0F308F00247897 /* ios-global-im-uikit-quickdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-global-im-uikit-quickdemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AD1EA92B0F308F00247897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9AD1EAA2B0F308F00247897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9AD1EAF2B0F308F00247897 /* RCDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCDLoginViewController.h; sourceTree = "<group>"; };
+		C9AD1EB02B0F308F00247897 /* RCDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCDLoginViewController.m; sourceTree = "<group>"; };
+		C9AD1EB32B0F308F00247897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9AD1EB52B0F309000247897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9AD1EB82B0F309000247897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9AD1EBA2B0F309000247897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AD1EBB2B0F309000247897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9AD1EC32B0F32A200247897 /* GlobalIMUIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GlobalIMUIKit.xcframework; sourceTree = "<group>"; };
+		C9AD1EC42B0F32A200247897 /* RongIMLibCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RongIMLibCore.xcframework; sourceTree = "<group>"; };
+		C9AD1ECF2B0F368400247897 /* RCDChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCDChatListViewController.h; sourceTree = "<group>"; };
+		C9AD1ED02B0F368400247897 /* RCDChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCDChatListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9AD1EA32B0F308F00247897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AD1ECA2B0F35C700247897 /* RongIMLibCore.xcframework in Frameworks */,
+				C9AD1EC72B0F35C600247897 /* GlobalIMUIKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9AD1E9D2B0F308F00247897 = {
+			isa = PBXGroup;
+			children = (
+				C9AD1EA82B0F308F00247897 /* ios-global-im-uikit-quickdemo */,
+				C9AD1EA72B0F308F00247897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9AD1EA72B0F308F00247897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1EA62B0F308F00247897 /* ios-global-im-uikit-quickdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9AD1EA82B0F308F00247897 /* ios-global-im-uikit-quickdemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1ED22B0F373E00247897 /* Entry */,
+				C9AD1ECC2B0F364C00247897 /* Feature */,
+				C9AD1EC22B0F32A200247897 /* IM */,
+				C9AD1EB22B0F308F00247897 /* Main.storyboard */,
+				C9AD1EB52B0F309000247897 /* Assets.xcassets */,
+				C9AD1EB72B0F309000247897 /* LaunchScreen.storyboard */,
+				C9AD1EBA2B0F309000247897 /* Info.plist */,
+				C9AD1EBB2B0F309000247897 /* main.m */,
+			);
+			path = "ios-global-im-uikit-quickdemo";
+			sourceTree = "<group>";
+		};
+		C9AD1EC22B0F32A200247897 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1EC32B0F32A200247897 /* GlobalIMUIKit.xcframework */,
+				C9AD1EC42B0F32A200247897 /* RongIMLibCore.xcframework */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		C9AD1ECC2B0F364C00247897 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1ECE2B0F365C00247897 /* ChatList */,
+				C9AD1ECD2B0F365300247897 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		C9AD1ECD2B0F365300247897 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1EAF2B0F308F00247897 /* RCDLoginViewController.h */,
+				C9AD1EB02B0F308F00247897 /* RCDLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C9AD1ECE2B0F365C00247897 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1ECF2B0F368400247897 /* RCDChatListViewController.h */,
+				C9AD1ED02B0F368400247897 /* RCDChatListViewController.m */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		C9AD1ED22B0F373E00247897 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD1EA92B0F308F00247897 /* AppDelegate.h */,
+				C9AD1EAA2B0F308F00247897 /* AppDelegate.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9AD1EA52B0F308F00247897 /* ios-global-im-uikit-quickdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AD1EBF2B0F309000247897 /* Build configuration list for PBXNativeTarget "ios-global-im-uikit-quickdemo" */;
+			buildPhases = (
+				C9AD1EA22B0F308F00247897 /* Sources */,
+				C9AD1EA32B0F308F00247897 /* Frameworks */,
+				C9AD1EA42B0F308F00247897 /* Resources */,
+				C9AD1EC92B0F35C600247897 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-global-im-uikit-quickdemo";
+			productName = "ios-global-im-uikit-quickdemo";
+			productReference = C9AD1EA62B0F308F00247897 /* ios-global-im-uikit-quickdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9AD1E9E2B0F308F00247897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C9AD1EA52B0F308F00247897 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C9AD1EA12B0F308F00247897 /* Build configuration list for PBXProject "ios-global-im-uikit-quickdemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9AD1E9D2B0F308F00247897;
+			productRefGroup = C9AD1EA72B0F308F00247897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9AD1EA52B0F308F00247897 /* ios-global-im-uikit-quickdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9AD1EA42B0F308F00247897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AD1EB92B0F309000247897 /* LaunchScreen.storyboard in Resources */,
+				C9AD1EB62B0F309000247897 /* Assets.xcassets in Resources */,
+				C9AD1EB42B0F308F00247897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9AD1EA22B0F308F00247897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AD1ED12B0F368400247897 /* RCDChatListViewController.m in Sources */,
+				C9AD1EB12B0F308F00247897 /* RCDLoginViewController.m in Sources */,
+				C9AD1EAB2B0F308F00247897 /* AppDelegate.m in Sources */,
+				C9AD1EBC2B0F309000247897 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9AD1EB22B0F308F00247897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AD1EB32B0F308F00247897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9AD1EB72B0F309000247897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AD1EB82B0F309000247897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9AD1EBD2B0F309000247897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9AD1EBE2B0F309000247897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AD1EC02B0F309000247897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-global-im-uikit-quickdemo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongcloud.im.uikit.quickdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9AD1EC12B0F309000247897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-global-im-uikit-quickdemo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongcloud.im.uikit.quickdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9AD1EA12B0F308F00247897 /* Build configuration list for PBXProject "ios-global-im-uikit-quickdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AD1EBD2B0F309000247897 /* Debug */,
+				C9AD1EBE2B0F309000247897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AD1EBF2B0F309000247897 /* Build configuration list for PBXNativeTarget "ios-global-im-uikit-quickdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AD1EC02B0F309000247897 /* Debug */,
+				C9AD1EC12B0F309000247897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9AD1E9E2B0F308F00247897 /* Project object */;
+}

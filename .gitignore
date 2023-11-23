@@ -1,0 +1,11 @@
+DerivedData
+Pods
+*/bin
+*/bin_tmp
+*/build
+*/framework
+*/DerivedData
+*/*/xcuserdata
+*/*/project.xcworkspace/xcuserdata
+GlobalIMUIKitTestDemo.xcodeproj/xcuserdata
+GlobalIMUIKitTestDemo.xcworkspace/xcuserdata
